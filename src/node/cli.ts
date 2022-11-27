@@ -8,7 +8,7 @@ const cli = cac('lg').version(version).help()
 cli.command('[root]', 'start server')
   .alias('dev')
   .action(async (root: string) => {
-    root = root ? path.resolve(root) : process.cwd()
+    // root = root ? path.resolve(root) : process.cwd()
     const server = await createDevServer(root)
     await server.listen()
     server.printUrls()
