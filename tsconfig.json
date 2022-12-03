@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "target": "ESNext",
+    "module": "ESNext",
     "outDir": "dist",
     "rootDir": "src",
-    "jsx": "react-jsx"
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true
   }
 }
