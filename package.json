@@ -7,7 +7,7 @@
     "lg": "bin/lg.js"
   },
   "scripts": {
-    "start": "tsup --watch",
+    "dev": "tsup --watch",
     "build": "tsup",
     "lint": "eslint --fix --ext .ts,.tsx,.js,.jsx ./",
     "prepare": "husky install"
